@@ -177,3 +177,25 @@ style> <style> /* The Modal (background) */ .modal {
 .md-typeset .admonition.info>.admonition-title:before, .md-typeset .admonition.info>summary:before, .md-typeset .admonition.todo>.admonition-title:before, .md-typeset .admonition.todo>summary:before, .md-typeset details.info>.admonition-title:before, .md-typeset details.info>summary:before, .md-typeset details.todo>.admonition-title:before, .md-typeset details.todo>summary:before {
     content: "";
 }
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+   width:300px;
+  float: left;
+  margin:10px;
+}
+.card a{
+	color:black;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
