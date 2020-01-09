@@ -1,6 +1,6 @@
 body p, h1, h2, h3, h4, li, div, td, th, table {
 	font-family: Montserrat, sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 28px;
 	font-weight: 400;
 }
