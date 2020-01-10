@@ -36,7 +36,8 @@ new SimpleLightbox({elements: 'a.sshot'});
 </script>
 
 
-## Other Polarion Solutions by Nextedy Systems
+<div style="background-color: whitesmoke;padding:20px;">
+<h2> Other Polarion Solutions by Nextedy Systems</h2>
 
 <div class="card">
   <a href="https://gantt.nextedy.com/">
@@ -63,4 +64,6 @@ new SimpleLightbox({elements: 'a.sshot'});
 </div>
 
 <div style="clear: both;"></div>
+
+</div>
 <br/><br/><br/>
