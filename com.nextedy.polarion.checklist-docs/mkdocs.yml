@@ -1,24 +1,27 @@
 site_name: Nextedy CHECKLIST
-site_description: 'A set of Polarion Extensions to enable project scheduling in Polarion ALM'
+site_description: 'Extend your Work Items with an action able checklist items and stay clear on what still needs to be done to satisfy your workflow process.'
 site_author: 'Nextedy'
 
 nav:
     - Home: index.md
-    
+    - Download: download.md
+    - Pricing: pricing.md 
+    - Version History: changelog.md   
+    - Support: support.md 
+    - About: about.md
 
 theme:
   name: 'material'
   font: false
   palette:
     primary: 'black'
-    accent: 'red'
+    accent: 'purple'
   favicon: img/favicon.png
   custom_dir: 'theme'
   logo: 'https://www.nextedy.com/wp-content/uploads/2018/10/nextedy-logo.png'
 
 extra_css:
   - 'extra/extra.css'
-
 
 extra_javascript:
   - 'extra/extra.js'
@@ -30,6 +33,5 @@ markdown_extensions:
   - tables
   - attr_list
   
-  
-copyright: 'Copyright &copy; 2019 Nextedy Systems'
+copyright: 'Copyright &copy; 2020 Nextedy Systems'
   
