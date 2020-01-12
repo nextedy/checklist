@@ -1,13 +1,14 @@
 site_name: Nextedy CHECKLIST
 site_description: 'Extend your Work Items with an action able checklist items and stay clear on what still needs to be done to satisfy your workflow process.'
-site_author: 'Nextedy'
+site_author: Nextedy
+site_url: https://checklist.nextedy.com
 
 nav:
     - Home: index.md
     - Download: download.md
     - Pricing: pricing.md 
-    - Version History: changelog.md   
     - Support: support.md 
+    - News: news.md
     - About: about.md
 
 theme:
