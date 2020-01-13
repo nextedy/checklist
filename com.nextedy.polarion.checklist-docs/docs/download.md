@@ -1,11 +1,11 @@
-# Download Nextedy CHECKLIST
+# Download {{product.name}}
 
 
 ## Installation Instructions
 
-The installation instructions are available at the [support center](https://nextedy.freshdesk.com/support/solutions/articles/48000981742-nextedy-checklist-installation-guide).
+The installation instructions are available at the [support center]({{support.installGuide}}).
 	
-Installation requirements: <br/>&nbsp;&nbsp;&nbsp;*Polarion 18.1 and newer*
+Installation requirements: <br/>&nbsp;&nbsp;&nbsp;*{{product.requirements}}*
 
 ## Download
 
@@ -15,8 +15,8 @@ Please fill in your email address to download the installation package.
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
-	portalId: "6265870",
-	formId: "cdcc52f5-bf59-436e-a173-918beb67a111"
+	portalId: "{{hs.id}}",
+	formId: "{{hs.downloadFormId}}"
 });
 </script>
 
