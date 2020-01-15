@@ -39,6 +39,11 @@ This is useful for Definition of Done, Acceptance Criteria and recurring process
 <a class="sshot" href="/img/chl-edit.gif" title="Checklist Edit Template"><img src="/img/chl-edit.gif" alt="Checklist Edit Template" /></a>
 
 
+## Simple but robust for regulatory needs 
+Permissions control not just who can check and uncheck the items, but there is also a dedicated permission to set who can define the checklist (add/remove/modify the items). 
+
+In addition to that you can bind those permissions to a workflow statuses, so e.g. the checklist definition (structure) cannot be changed once the work item is approved. 
+
 <script>
 // using plain js
 new SimpleLightbox({elements: 'a.sshot'});
