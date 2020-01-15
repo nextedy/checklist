@@ -3,6 +3,7 @@
 	<property name="worksheet-docs.dir"  value="/Users/jiriwalek/git/worksheet-docs/com.nextedy.polarion.worksheet-docs"/>
 	<property name="checklist-docs.dir"  value="/Users/jiriwalek/git/checklist-docs/com.nextedy.polarion.checklist-docs"/>
 	<property name="gantt-docs.dir"  value="/Users/jiriwalek/git/gantt-docs"/>
+	<property name="samm-docs.dir"  value="/Users/jiriwalek/git/samm/com.nextedy.polarion.samm-docs"/>
 
 
 	<target name="sync" >
@@ -13,11 +14,11 @@
 		<copydir src="${checklist-docs.dir}/theme"
 		         dest="${worksheet-docs.dir}/theme"
 				 forceoverwrite="true"/>   
-		<copy file="${checklist-docs.dir}/docs/about.md" tofile="${worksheet-docs.dir}/docs/about.md"/>
-		<copy file="${checklist-docs.dir}/docs/news.md" tofile="${worksheet-docs.dir}/docs/news.md"/>
-		<copy file="${checklist-docs.dir}/docs/pricing.md" tofile="${worksheet-docs.dir}/docs/pricing.md"/>
-		<copy file="${checklist-docs.dir}/docs/support.md" tofile="${worksheet-docs.dir}/docs/support.md"/>
-		<copy file="${checklist-docs.dir}/docs/download.md" tofile="${worksheet-docs.dir}/docs/download.md"/>
+		<copy file="${checklist-docs.dir}/docs/about.md" tofile="${worksheet-docs.dir}/docs/about.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/news.md" tofile="${worksheet-docs.dir}/docs/news.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/pricing.md" tofile="${worksheet-docs.dir}/docs/pricing.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/support.md" tofile="${worksheet-docs.dir}/docs/support.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/download.md" tofile="${worksheet-docs.dir}/docs/download.md" overwrite="true"/>
 
 		
 		<copydir src="${checklist-docs.dir}/docs/extra"
@@ -26,14 +27,25 @@
 		<copydir src="${checklist-docs.dir}/theme"
 		         dest="${gantt-docs.dir}/theme"
 				 forceoverwrite="true"/>   
-		<copy file="${checklist-docs.dir}/docs/about.md" tofile="${gantt-docs.dir}/docs/about.md"/>
-		<copy file="${checklist-docs.dir}/docs/news.md" tofile="${gantt-docs.dir}/docs/news.md"/>
-		<copy file="${checklist-docs.dir}/docs/pricing.md" tofile="${gantt-docs.dir}/docs/pricing.md"/>
-		<copy file="${checklist-docs.dir}/docs/support.md" tofile="${gantt-docs.dir}/docs/support.md"/>
-		<copy file="${checklist-docs.dir}/docs/download.md" tofile="${gantt-docs.dir}/docs/download.md"/>
+		<copy file="${checklist-docs.dir}/docs/about.md" tofile="${gantt-docs.dir}/docs/about.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/news.md" tofile="${gantt-docs.dir}/docs/news.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/pricing.md" tofile="${gantt-docs.dir}/docs/pricing.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/support.md" tofile="${gantt-docs.dir}/docs/support.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/download.md" tofile="${gantt-docs.dir}/docs/download.md" overwrite="true"/>
 
 	
-		
+		<copydir src="${checklist-docs.dir}/docs/extra"
+				         dest="${samm-docs.dir}/docs/extra"
+						 forceoverwrite="true"/>   
+		<copydir src="${checklist-docs.dir}/theme"
+		         dest="${samm-docs.dir}/theme"
+				 forceoverwrite="true"/>   
+		<copy file="${checklist-docs.dir}/docs/about.md" tofile="${samm-docs.dir}/docs/about.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/news.md" tofile="${samm-docs.dir}/docs/news.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/pricing.md" tofile="${samm-docs.dir}/docs/pricing.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/support.md" tofile="${samm-docs.dir}/docs/support.md" overwrite="true"/>
+		<copy file="${checklist-docs.dir}/docs/download.md" tofile="${samm-docs.dir}/docs/download.md" overwrite="true"/>
+
 	</target>
 
 </project>
