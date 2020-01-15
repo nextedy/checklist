@@ -1,9 +1,27 @@
 # Release Notes 
 ## Changelog
 
-### 1.5.* <small>- Jan, 2019 </small>
 
-** 1.5.0 <small>- Jan, 2019</small>**
+### 1.6* <small>- Jan 15, 2019 </small>
+
+** 1.6.0 <small>- Jan 15, 2019</small>**
+
+* Support for control who can define the checklist and when?  See [documentation](https://nextedy.freshdesk.com/en/support/solutions/articles/48000982903-how-to-control-who-can-change-the-list-and-when-)
+
+### 1.5.* <small>- Jan 14, 2019 </small>
+
+** 1.5.2 <small>- Jan 14, 2019</small>**
+
+* Fix for a small bug that it writes to an error log an error, that does not actually has any impact
+
+** 1.5.1 <small>- Jan 14, 2019</small>**
+
+* Support for summary (statistics) field  - See [documentation](https://nextedy.freshdesk.com/en/support/solutions/articles/48000981869-setup-new-checklist)
+
+<img src="https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/48022541207/original/b-t3B6tyNx_tGQ5CdHWjTqnvsIz-2YG2tw.png?1578934169"/>
+
+
+** 1.5.0 <small>- Jan 12, 2019</small>**
 
 * Initial public release
 

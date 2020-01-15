@@ -7,6 +7,15 @@ Extend your Polarion Work Items with **action-able checklists** and stay clear o
 * *Define Checklist Templates for recurring processes*
 * *Interactive editor makes formal checklists easy-to-process*
 
+<div id="download-button" >
+<center ><br/>
+<a href="./download">
+<button class="mdc-button">&nbsp;Try Now!&nbsp;</button>
+</a>
+</center>
+<br>
+</div>
+
 <a class="sshot" href="/img/checklist.png" title="Checklist"><img src="/img/checklist.png" alt="Checklist" /></a>
 
 
