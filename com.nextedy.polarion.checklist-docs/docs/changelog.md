@@ -2,9 +2,9 @@
 ## Changelog
 
 
-### 1.7.0 <small>- Jan 20, 2019 </small>
+### 1.7.* <small>- Jan 21, 2019 </small>
 
-** 1.7.1 <small>- Jan 20, 2019 </small>**
+** 1.7.1 <small>- Jan 21, 2019 </small>**
 
 * Multi-line notes/replies
 
