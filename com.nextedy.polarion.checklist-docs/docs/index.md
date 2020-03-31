@@ -1,7 +1,7 @@
 
 # Nextedy CHECKLIST
 
-Extend your Polarion Work Items with **action-able checklists** and stay clear on what needs to be done to satisfy your **workflow** process.
+Extend your Polarion Work Items and Documents with **action-able checklists** and stay clear on what needs to be done to satisfy your **workflow** process.
 
 * *Manage workflow criteria without subtasks*
 * *Define Checklist Templates for recurring processes*
@@ -19,14 +19,19 @@ Extend your Polarion Work Items with **action-able checklists** and stay clear o
 <a class="sshot" href="/img/checklist.png" title="Checklist"><img src="/img/checklist.png" alt="Checklist" /></a>
 
 
-## Manage Work Items workflow criteria without subtasks
+## Manage Work Items and LiveDoc workflow criteria without subtasks
 Stop using Subtasks for simple tracking. Use Checklist instead. 
 
 Use the out of the box  workflow functions and conditions to ensure that workflow transition can be performed only if the mandatory checklist items are processed. 
 
+It works both - for Work Items and LiveDocs
+<a class="sshot" href="/img/chl-livedoc.png" title="Checklist Live Docs"><img src="/img/chl-livedoc.png" alt="Checklist Live Docs" /></a>
+
+
+
 ## Interactive editor makes formal checklists easy-to-process 
 
-Instantly see, from the work item detail view, the status and progress of the checklist along with which items are mandatory and which ones completed.
+Instantly see, from the work item detail view, or LiveDoc vies, the status and progress of the checklist along with which items are mandatory and which ones completed.
 
 <a class="sshot" href="/img/chl-interactive.gif" title="Checklist Controls"><img src="/img/chl-interactive.gif" alt="Checklist Controls" /></a>
 

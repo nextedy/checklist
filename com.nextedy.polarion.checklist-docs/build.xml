@@ -4,6 +4,7 @@
 	<property name="checklist-docs.dir"  value="/Users/jiriwalek/git/checklist-docs/com.nextedy.polarion.checklist-docs"/>
 	<property name="gantt-docs.dir"  value="/Users/jiriwalek/git/gantt-docs"/>
 	<property name="samm-docs.dir"  value="/Users/jiriwalek/git/samm/com.nextedy.polarion.samm-docs"/>
+	<property name="media-docs.dir"  value="/Users/jiriwalek/git/media-docs/com.nextedy.polarion.media-doc"/>
 
 
 	<target name="sync" >
@@ -45,6 +46,18 @@
 		<copy file="${checklist-docs.dir}/docs/pricing.md" tofile="${samm-docs.dir}/docs/pricing.md" overwrite="true"/>
 		<copy file="${checklist-docs.dir}/docs/support.md" tofile="${samm-docs.dir}/docs/support.md" overwrite="true"/>
 		<copy file="${checklist-docs.dir}/docs/download.md" tofile="${samm-docs.dir}/docs/download.md" overwrite="true"/>
+		
+		<copydir src="${checklist-docs.dir}/docs/extra"
+					         dest="${media-docs.dir}/docs/extra"
+							 forceoverwrite="true"/>   
+			<copydir src="${checklist-docs.dir}/theme"
+			         dest="${media-docs.dir}/theme"
+					 forceoverwrite="true"/>   
+			<copy file="${checklist-docs.dir}/docs/about.md" tofile="${media-docs.dir}/docs/about.md" overwrite="true"/>
+			<copy file="${checklist-docs.dir}/docs/news.md" tofile="${media-docs.dir}/docs/news.md" overwrite="true"/>
+			<copy file="${checklist-docs.dir}/docs/pricing.md" tofile="${media-docs.dir}/docs/pricing.md" overwrite="true"/>
+			<copy file="${checklist-docs.dir}/docs/support.md" tofile="${media-docs.dir}/docs/support.md" overwrite="true"/>
+			<copy file="${checklist-docs.dir}/docs/download.md" tofile="${media-docs.dir}/docs/download.md" overwrite="true"/>
 
 	</target>
 
