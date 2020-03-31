@@ -1,5 +1,8 @@
 # Release Notes 
 ## Changelog
+### 2.0.* <small>- Apr 1, 2019 </small>
+
+* LiveDoc Checklist
 
 
 ### 1.7.* <small>- Jan 21, 2019 </small>
